@@ -1,0 +1,298 @@
+.sub-container1{
+   
+
+    
+    float: left;
+    
+}
+.container1{
+    display: flex;
+    background-color:#FFFFFF ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+ 
+   
+}
+ .nav{
+    float: right;
+    margin-left: 55%;
+    gap: 10%;
+    margin-top: 2%;
+} 
+.nav a{
+    text-decoration: none;
+    color:#000000;
+    
+    
+}
+.container2{
+    width: 100%;
+    background-image: url(hero-banner.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+   
+}
+.content{
+    padding: 5%;
+    color: #FFFFFF;
+    font-size: 18px;
+    
+}
+.content1{
+    /* float: right; */
+    /* margin-left: 57%; */
+    margin-top: 10%;
+}
+.container3{
+    text-align: center;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container4{
+    width: 100%;
+    display: flex;
+   
+   
+
+}
+.inner-container4{
+    /* background-image: url(technology.png);
+    background-repeat: repeat;
+    background-size: cover; */
+    width: 90%;
+    background-color:#ccdfe0;
+    height: 400px;
+    display: flex;
+    margin-left:  5%;
+    border-radius: 3%;
+  
+
+}
+.img-tech{
+    width: 50%;
+    border-radius: 3%;
+}
+.container5{
+    width: 100%;
+   
+    
+}
+.content2{
+    text-align: center;
+    width: 100%;
+}
+img{
+    width:90%;
+}
+.icon-img{
+    width: 7%;
+}
+.tech-type-ul{
+    display: block;
+    /* flex-wrap: wrap; */
+}
+.inner-container5{
+    width: 80%;
+    display: flex;
+    gap: 10%;
+    justify-content: space-between;
+    margin-left: 10%;
+   
+}
+.container6{
+    width: 100%;
+}
+.inner-container6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    width: 90%;
+    margin: 5%;
+   
+}
+.child1 img{
+    width: 8%;
+    height: 50%;
+    
+    padding: 10%;
+}
+.child2 img{
+    width: 8%;
+    height: 50%;
+    
+    padding: 10%;
+}
+.child3 img{
+    width: 8%;
+    height: 50%;
+    
+    padding: 10%;
+}
+.child1{
+    display: flex;
+    gap: 5%;
+    width: 34%;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+.child2{
+    display: flex;
+    gap: 5%;
+    width: 39%;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+
+}
+.child3{
+    display: flex;
+    gap: 5%;
+    width: 34%;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+
+
+.container7{
+    width: 100%;
+}
+.inner-container7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    width: 90%;
+    margin: 5%;
+   
+}
+.inner-container9{
+    margin-left: 5%;
+}
+.child11{
+    display: flex;
+    gap: 5%;
+    width: 23%;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+}
+.child11 img{
+    width: 8%;
+    height: 50%;
+    
+    padding: 10%;
+}
+.table1 ,th,td{
+    border: 1px solid rgb(247, 239, 239);
+    border-collapse: collapse;
+  
+    /* width: 100%; */
+}
+.table1{
+    width: 30%;
+    height: auto;
+}
+
+
+.ta-td{
+    text-decoration: underline;
+}
+.ta-con{
+    text-align: center;
+}.table1 th{
+    background-color:#011533 ;
+    color: #FFFFFF;
+    height: 30px;
+    border-radius: 5px;
+}
+.footer{
+    background-color:#011533;
+    color: #FFFFFF;
+    width: 100%;
+    height: 700px;
+}
+hr{
+background-image: linear-gradient(#053786, #00A6CB);
+height: 3px;
+}
+.hr-line{
+    background-image: linear-gradient(#053786, #00A6CB);
+    height: 8px;
+    margin-top: 0%;
+}
+#last{
+    text-align: center;
+}
+.footer-content{
+    margin: 5%;
+    padding-top: 5%;
+    
+}
+iframe{
+padding: 15%;
+     
+}
+h1,h2{
+    font-family: 'Roboto', sans-serif;
+}
+.inner-footer{
+    display: flex;
+}
+.vr{
+    width: 7px;
+    height: 40px;
+    margin: 0;
+    margin-top: 1%;
+    
+}
+.vr-line{
+    display: flex;
+}
+  @media (max-width:600px){
+    body{
+        /* background: #00A6CB; */
+        width: 100%;
+        border: 1px solid black;
+    }
+    .container1{
+        width: 100%;
+        margin: 0;
+     display: grid;
+     text-align: center;
+    }
+    .nav{
+        margin: 5%;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    .list{
+        display: block;
+    }
+    .container4{
+        display: block;
+    }
+    .inner-container4{
+        display: grid;
+    }
+    .img-tech{
+        width: 90%;
+        height: 173px;
+    }
+    .inner-footer{
+        display: grid;
+    }
+   
+    .iframe{
+        width: 1%;
+        margin-right: 50px;
+        margin-left: 1px;
+      }
+      .footer{
+        height: 100%;
+    }
+
+    }
+    
